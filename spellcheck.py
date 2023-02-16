@@ -30,3 +30,13 @@ def loadWordsFromFile(fileName):
 
 # Call main() to begin program
 main()
+
+while True:
+    print("Main Menu")
+    print("1: Spell Check a Word (Linear Search)")
+    print("2: Spell Check Alice In Wonderland (Linear Search)")
+    print("3: Spell Check Alice In Wonderland (Linear Search)")
+    print("4: Spell Check Alice in Wonderland (Binary Search)")
+    print("5: Exit")
+    selection = input("Enter menu selection (1-5): ")
+    input("")
