@@ -93,7 +93,7 @@ def main():
             endTime = time.time()
             time_elapsed = endTime - startTime
             print("Number of words not found in dictionary: " +
-                  str(count) + " (" + str(time_elapsed) + ")")
+                  str(count) + " (" + str(time_elapsed) + " seconds)")
         # Print the number of words and time not found using Binary Search
         elif selection == "4":
             count = 0
@@ -106,7 +106,7 @@ def main():
             endTime = time.time()
             time_elapsed = endTime - startTime
             print("Number of words not found in dictionary: " +
-                  str(count) + " (" + str(time_elapsed) + ")")
+                  str(count) + " (" + str(time_elapsed) + " seconds)")
         # print goodbye and stop the while loop
         elif selection == "5":
             print("Goodbye!")
